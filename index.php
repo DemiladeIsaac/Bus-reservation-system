@@ -1,0 +1,609 @@
+<!--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+
+<?php include('server.php') ?>
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>Transco. Group 4 CSC 411</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content=" a Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+
+	<link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/owl.theme.css" type="text/css" media="all">
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+
+	<link href="css/fontawesome-all.css" rel="stylesheet">
+	<link href="css/simpleLightbox.css" rel='stylesheet' type='text/css' />
+	<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,900" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700" rel="stylesheet">
+</head>
+
+<body>
+
+	<!--/banner-->
+	<div class="banner" id="home">
+		<!-- header -->
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light top-header">
+				<button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				    aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<!-- search -->
+				<div class="search">
+					<div class="cd-main-header">
+						<ul class="cd-header-buttons">
+				<li class="nav-item">
+			<a class="nav-link ml-lg-0" style="color:black;" href="index.html" data-toggle="modal" data-target="#exampleModalCenter">Login</a>
+						</li>
+						<li class="nav-item">
+			<a class="nav-link ml-lg-0" style="color:black;" href="index.html" data-toggle="modal" data-target="#exampleModalCenter1">Sign Up</a>
+						</li>
+						</ul>
+					</div>
+					<div id="cd-search" class="cd-search">
+						<form action="#" method="post">
+							<input name="Search" type="search" placeholder="Click enter after typing...">
+						</form>
+					</div>
+				</div>
+				<!-- //search -->
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item active">
+							<a class="nav-link ml-lg-0" href="#">Home
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+					</ul>
+
+				</div>
+			</nav>
+		</header>
+		<!-- //header -->
+		<!-- banner-text -->
+		<div id="wrapper">
+
+			<!-- Slideshow 1 -->
+			<div class="rslides_container">
+				<ul class="rslides" id="slider1">
+					<li>
+						<div class="banner-img">
+							<div class="banner-info text-center">
+								<h3 class="logo">
+									<a class="navbar-brand" href="index.html">
+										<i class="fas fa-cubes"></i> Transco</a>
+								</h3>
+								<h4>Transporting Kings and Queens of Hebron.</h4>
+								<div class="banner-form">
+
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="banner-img one">
+							<div class="banner-info text-center">
+								<h3 class="logo">
+									<a class="navbar-brand" href="index.html">
+										<i class="fas fa-cubes"></i> Transco</a>
+								</h3>
+								<h4>Let us move you to your new life.</h4>
+
+							</div>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!--/banner-bottom-agile-w3ls-->
+	<section class="banner-bottom-agile-w3ls">
+		<div class="container">
+			<h3 class="tittle-w3ls text-center">A brief about Transco</h3>
+			<div class="row inner-sec-w3layouts-agileits">
+				<div class="col-lg-6 about-img">
+					<img src="images/ab.jpg" class="img-fluid rounded" alt="">
+				</div>
+				<div class="col-lg-6 about-info text-left">
+					<h4 class="sub-hd mb-4">We give the best transporting services in Cannan-Land.</h4>
+					<p>Welcome to Transco, we offer the best transporting services in and out of hebron. Kings and Queens of hebron can book a shuttle from the any of the most significant places in Covenant University to any other location within the University Campus <p class="sup-para mt-2">Transco offers a cheaper shuttle service than any other shuttle service in Covenant University at the rate of N100 to any location in Covenant University</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog">
+	<div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body modal-body-sub_agile">
+				<div class="main-mailposi">
+					<span class="fa fa-envelope-o" aria-hidden="true"></span>
+				</div>
+				<div class="modal_body_left modal_body_left1">
+					<h3 class="agileinfo_sign">Login To Your Account</h3>
+					<form action="index.php" method="post">
+                        <?php include('errors.php'); ?>
+						<div class="styled-input agile-styled-input-top">
+							<input type="text" placeholder="User Name" name="username" required="">
+						</div>
+						<div class="styled-input">
+							<input type="password" placeholder="Password" name="password" required="">
+						</div>
+						<input style="background-color:#ffc107; color:black;" name="login_user" type="submit" value="Login">
+					</form>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div></div></div>
+		<!-- //Modal content-->
+		<!-- Modal -->
+	<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog">
+	<div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body modal-body-sub_agile">
+				<div class="main-mailposi">
+					<span class="fa fa-envelope-o" aria-hidden="true"></span>
+				</div>
+				<div class="modal_body_left modal_body_left1">
+					<h3 class="agileinfo_sign">SignUp</h3>
+					<form action="index.php" method="post">
+                         <?php include('errors.php'); ?>
+						<div class="styled-input agile-styled-input-top">
+							<input type="text" placeholder="User Name" name="username" value="<?php echo $username; ?>" required="">
+						</div>
+						<div class="styled-input agile-styled-input-top">
+							<input type="email" placeholder="Email" name="email" value="<?php echo $email; ?>" required="">
+						</div>
+						<div class="styled-input">
+							<input type="password" placeholder="Password" name="password_1" required="">
+						</div>
+						<div class="styled-input">
+							<input type="password" placeholder="Confirm Password" name="password_2" required="">
+						</div>
+						<input style="background-color:#ffc107; color:black;" name="reg_user" type="submit" value="Register">
+					</form>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- //Modal content-->
+
+	</div>
+</div>
+
+	<!--//banner-bottom-agile-w3ls-->
+	<!--/services-->
+	<section class="banner-bottom-agile-w3ls services">
+		<div class="container">
+			<h3 class="tittle-w3ls cen text-center">Other Services offered by Transco</h3>
+			<div class="row inner-sec-w3layouts-agileits">
+				<div class="col-lg-6 service-in text-center">
+					<div class="card">
+						<div class="card-body">
+							<i class="fas fa-home"></i>
+							<h5 class="card-title">Local Moving</h5>
+							<p class="card-text">We offer moving and transporting services within Covenant University for lecturers and students if the need may be.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 service-in  text-center">
+					<div class="card">
+						<div class="card-body">
+							<i class="fas fa-truck"></i>
+							<h5 class="card-title">Long Distance Moves</h5>
+							<p class="card-text">We also offer easy moving and transporting services outside Covenant University and Cannanland for the public.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 service-in  text-center mt-4">
+					<div class="card">
+						<div class="card-body">
+							<i class="fab fa-fly"></i>
+							<h5 class="card-title">Commercial Moving</h5>
+							<p class="card-text">We offer our services to companies to move their equipments from one location to another. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 service-in text-center mt-4">
+					<div class="card">
+						<div class="card-body">
+							<i class="fas fa-bus"></i>
+							<h5 class="card-title">Storage Services</h5>
+							<p class="card-text">We provide storage services to individuals and mostly companies to store their equipments.</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--//services-->
+	<!--/areas-->
+	<section class="banner-bottom-agile-w3ls areas text-center">
+		<div class="container">
+			<h3 class="tittle-w3ls cen">Group 4 CSC 411 Project</h3>
+			<div class="row inner-sec-w3layouts-agileits">
+				<p>..</p>
+			</div>
+		</div>
+	</section>
+	<!--//areas-->
+	<!--/testimonials-->
+	<section class="testimonials banner-bottom-agile-w3ls">
+		<div class="container">
+			<h3 class="tittle-w3ls text-center">Developer Team</h3>
+			<div class="inner-sec-w3layouts-agileits">
+				<div class="owl-carousel owl-theme">
+					<div class="item">
+						<div class="icon-test">
+							<i class="fas fa-quote-left"></i>
+						</div>
+						<div class="feedback-info">
+							<div class="feedback-grids">
+								<div class="feedback-img">
+									<img src="images/t1.jpg" class="img-fluid rounded" alt="" />
+								</div>
+								<div class="feedback-img-info">
+									<h5>Olorode Demilade</h5>
+									<p>15CG03672
+									</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="icon-test">
+							<i class="fas fa-quote-left"></i>
+						</div>
+						<div class="feedback-info">
+							<div class="feedback-grids">
+								<div class="feedback-img">
+									<img src="images/t2.jpg" class="img-fluid rounded" alt="" />
+								</div>
+								<div class="feedback-img-info">
+									<h5>Ale Moyosore</h5>
+									<p>15CG03583
+									</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="icon-test">
+							<i class="fas fa-quote-left"></i>
+						</div>
+						<div class="feedback-info">
+							<div class="feedback-grids">
+								<div class="feedback-img">
+									<img src="images/t3.jpg" class="img-fluid rounded" alt="" />
+								</div>
+								<div class="feedback-img-info">
+									<h5>Olalekan Ayo</h5>
+									<p>15CG03668
+									</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="icon-test">
+							<i class="fas fa-quote-left"></i>
+						</div>
+						<div class="feedback-info">
+							<div class="feedback-grids">
+								<div class="feedback-img">
+									<img src="images/t1.jpg" class="img-fluid rounded" alt="" />
+								</div>
+								<div class="feedback-img-info">
+									<h5>Enoch Sodiya</h5>
+									<p>15CG03688</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="icon-test">
+							<i class="fas fa-quote-left"></i>
+						</div>
+						<div class="feedback-info">
+							<div class="feedback-grids">
+								<div class="feedback-img">
+									<img src="images/t3.jpg" class="img-fluid rounded" alt="" />
+								</div>
+								<div class="feedback-img-info">
+									<h5>Nwoke Williams</h5>
+									<p>15CG03642</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="icon-test">
+							<i class="fas fa-quote-left"></i>
+						</div>
+						<div class="feedback-info">
+							<div class="feedback-grids">
+								<div class="feedback-img">
+									<img src="images/t4.jpg" class="img-fluid rounded" alt="" />
+								</div>
+								<div class="feedback-img-info">
+									<h5>Emu Favour</h5>
+									<p>15CH03735</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+                    					<div class="item">
+						<div class="icon-test">
+							<i class="fas fa-quote-left"></i>
+						</div>
+						<div class="feedback-info">
+							<div class="feedback-grids">
+								<div class="feedback-img">
+									<img src="images/t4.jpg" class="img-fluid rounded" alt="" />
+								</div>
+								<div class="feedback-img-info">
+									<h5>Samuel Fiamasi</h5>
+									<p>15CH03735</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+                    					<div class="item">
+						<div class="icon-test">
+							<i class="fas fa-quote-left"></i>
+						</div>
+						<div class="feedback-info">
+							<div class="feedback-grids">
+								<div class="feedback-img">
+									<img src="images/t4.jpg" class="img-fluid rounded" alt="" />
+								</div>
+								<div class="feedback-img-info">
+									<h5>Enoma Micheal</h5>
+									<p>15CG03613</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+                    					<div class="item">
+						<div class="icon-test">
+							<i class="fas fa-quote-left"></i>
+						</div>
+						<div class="feedback-info">
+							<div class="feedback-grids">
+								<div class="feedback-img">
+									<img src="images/t4.jpg" class="img-fluid rounded" alt="" />
+								</div>
+								<div class="feedback-img-info">
+									<h5>Obisike Anyanna</h5>
+									<p>13CH016016</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--//testimonials-->
+	<!--footer-->
+	<footer>
+		<div class="container">
+			<div class="footer-top-agileits-w3ls text-center">
+				<h2 class="logo">
+					<a href="index.html">
+						<i class="fas fa-cubes"></i> Transco</a>
+				</h2>
+				<p class="para three mt-4"></p>
+			</div>
+			<div class="subscribe-grid text-center">
+				<h5>Subscribe for our latest updates</h5>
+				<p>Get
+					<span>10%</span> off on booking</p>
+				<form action="#" method="post">
+					<input class="form-control" type="email" placeholder="Subscribe" name="Subscribe" required="">
+					<button class="btn1">
+						<i class="far fa-envelope"></i>
+					</button>
+				</form>
+			</div>
+			<div class="row footer-bottom-wthree-agile">
+				<div class="col-lg-6 copyright">
+					<p>&copy; 2018 Transco . All Rights Reserved | Design by
+						<a href="http://w3layouts.com/"> Group 4 </a>
+					</p>
+
+				</div>
+				<div class="col-lg-6 social-icon footer text-right">
+					<div class="icon-social">
+						<a href="#" class="button-footr">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+						<a href="#" class="button-footr">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="#" class="button-footr">
+							<i class="fab fa-dribbble"></i>
+						</a>
+						<a href="#" class="button-footr">
+							<i class="fab fa-pinterest-p"></i>
+						</a>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+
+			</div>
+			<!-- //footer -->
+		</div>
+	</footer>
+	<!---->
+
+	<!-- js -->
+	<script  src="js/jquery-2.2.3.min.js"></script>
+	<!-- //js -->
+	<!--slider-->
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		$(function () {
+
+			// Slideshow 1
+			$("#slider1").responsiveSlides({
+				auto: false,
+				pager: true,
+				nav: true,
+				speed: 500,
+				namespace: "centered-btns"
+			});
+
+
+		});
+	</script>
+	<!--//slider-->
+	<!--search-bar-->
+	<script src="js/search.js"></script>
+	<!--//search-bar-->
+	<script  src="js/simplyCountdown.js"></script>
+	<link href="css/simplyCountdown.css" rel='stylesheet' type='text/css' />
+	<script>
+		var d = new Date();
+
+		simplyCountdown('simply-countdown-custom', {
+			year: d.getFullYear(),
+			month: d.getMonth() + 2,
+			day: 25
+		});
+		simplyCountdown('simply-countdown-custom1', {
+			year: d.getFullYear(),
+			month: d.getMonth() + 2,
+			day: 25
+		});
+	</script>
+	<!--js-->
+
+	<!-- carousel -->
+	<script src="js/owl.carousel.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.owl-carousel').owlCarousel({
+				loop: true,
+				margin: 10,
+				responsiveClass: true,
+				responsive: {
+					0: {
+						items: 1,
+						nav: true
+					},
+					600: {
+						items: 1,
+						nav: false
+					},
+					900: {
+						items: 2,
+						nav: false
+					},
+					1000: {
+						items: 3,
+						nav: true,
+						loop: false,
+						margin: 20
+					}
+				}
+			})
+		})
+	</script>
+	<!-- //carousel -->
+
+
+
+	<!-- simpleLightbox -->
+	<script src="js/simpleLightbox.js"></script>
+	<script>
+		$('.proj_gallery_grid a').simpleLightbox();
+	</script>
+	<!-- //simpleLightbox -->
+
+	<!--search-bar-->
+	<!--/ start-smoth-scrolling -->
+	<script  src="js/move-top.js"></script>
+	<script  src="js/easing.js"></script>
+	<script >
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 900);
+			});
+		});
+	</script>
+	<!--// end-smoth-scrolling -->
+
+	<script >
+		$(document).ready(function () {
+			/*
+									var defaults = {
+							  			containerID: 'toTop', // fading element id
+										containerHoverID: 'toTopHover', // fading element hover id
+										scrollSpeed: 1200,
+										easingType: 'linear' 
+							 		};
+									*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+	<a href="#home" class="scroll" id="toTop" style="display: block;">
+		<span id="toTopHover" style="opacity: 1;"> </span>
+	</a>
+
+	<!-- //Custom-JavaScript-File-Links -->
+	<script src="js/bootstrap.js"></script>
+
+
+</body>
+
+</html>
